@@ -13,6 +13,7 @@
 		6C42A1722A9F633B00A3B883 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C42A1712A9F633B00A3B883 /* Preview Assets.xcassets */; };
 		6CD59ABB2AA0565D00A04C0B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD59ABA2AA0565D00A04C0B /* Launch Screen.storyboard */; };
 		6CD59AC02AA07DCC00A04C0B /* SampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD59ABF2AA07DCC00A04C0B /* SampleModel.swift */; };
+		6CD59AC32AA08EE400A04C0B /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD59AC22AA08EE400A04C0B /* LaunchScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		6C42A1712A9F633B00A3B883 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6CD59ABA2AA0565D00A04C0B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		6CD59ABF2AA07DCC00A04C0B /* SampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleModel.swift; sourceTree = "<group>"; };
+		6CD59AC22AA08EE400A04C0B /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				6C42A16C2A9F633900A3B883 /* FirstView.swift */,
+				6CD59AC22AA08EE400A04C0B /* LaunchScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CD59AC32AA08EE400A04C0B /* LaunchScreen.swift in Sources */,
 				6C42A16D2A9F633900A3B883 /* FirstView.swift in Sources */,
 				6CD59AC02AA07DCC00A04C0B /* SampleModel.swift in Sources */,
 				6C42A16B2A9F633900A3B883 /* SwiftUI_LearningApp.swift in Sources */,
