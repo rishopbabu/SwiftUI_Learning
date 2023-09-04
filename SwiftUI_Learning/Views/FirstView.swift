@@ -72,6 +72,11 @@ struct FirstView: View {
                     .shadow(radius: 30))
                 .padding()
                 
+                Spacer()
+            }
+            
+            VStack {
+                Spacer()
                 HStack {
                     
                     // Back Button
@@ -110,9 +115,8 @@ struct FirstView: View {
                             .shadow(radius: 20)
                     }
                 }
-                
-                Spacer()
             }
+            
         }
     }
 }

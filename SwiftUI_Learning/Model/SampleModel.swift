@@ -8,7 +8,8 @@
 import Foundation
 
 
-struct TouristPlace {
+struct TouristPlace: Identifiable {
+    let id = UUID()
     let imageName: String
     let name: String
     let description: String
