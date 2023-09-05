@@ -11,7 +11,7 @@ struct ListView: View {
     
     let touristPlaces: [TouristPlace] = [
         TouristPlace(imageName: "waterfalls", name: "Water Falls", description: "This waterfall is in Coimbatore.", rating: 4, reviews: "326" ),
-        TouristPlace(imageName: "BlackThunder", name: "Black Thunder", description: "It is Asia's Number 1 theme park in coimbatore.", rating: 5, reviews: "265"),
+        TouristPlace(imageName: "BlackThunder", name: "Black Thunder", description: "It is Asia's Number 1 theme park in coimbatore.", rating: 5, reviews: "265"), 
         TouristPlace(imageName: "MarudhamalaiTemple", name: "Maruthamalai Temple", description: "It is one of the 6 houses of Lord Murugan.", rating: 4, reviews: "438"),
         TouristPlace(imageName: "GDCarMuseum", name: "GeDee Car Museum", description: "Gedee Car Museum is the only classic car museum of its kind in south India, located in Coimbatore.", rating: 3, reviews: "312"),
         TouristPlace(imageName: "IshaYoga", name: "Isha Yoga", description: "Isha Foundation is a nonprofit, spiritual organisation that was founded in 1992 near Coimbatore", rating: 4, reviews: "489")
