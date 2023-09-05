@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C40B52D2AA6C030001E8471 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C40B52C2AA6C030001E8471 /* HexagonParameters.swift */; };
+		6C40B5302AA6C282001E8471 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C40B52F2AA6C282001E8471 /* BadgeBackground.swift */; };
+		6C40B5322AA6C67F001E8471 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C40B5312AA6C67F001E8471 /* BadgeSymbol.swift */; };
+		6C40B5342AA6C70E001E8471 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C40B5332AA6C70E001E8471 /* RotatedBadgeSymbol.swift */; };
+		6C40B5372AA6C78A001E8471 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C40B5362AA6C78A001E8471 /* Badge.swift */; };
 		6C42A16B2A9F633900A3B883 /* SwiftUI_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C42A16A2A9F633900A3B883 /* SwiftUI_LearningApp.swift */; };
 		6C42A16D2A9F633900A3B883 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C42A16C2A9F633900A3B883 /* FirstView.swift */; };
 		6C42A16F2A9F633B00A3B883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C42A16E2A9F633B00A3B883 /* Assets.xcassets */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C40B52C2AA6C030001E8471 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		6C40B52F2AA6C282001E8471 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		6C40B5312AA6C67F001E8471 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		6C40B5332AA6C70E001E8471 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		6C40B5362AA6C78A001E8471 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		6C42A1672A9F633900A3B883 /* SwiftUI_Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C42A16A2A9F633900A3B883 /* SwiftUI_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LearningApp.swift; sourceTree = "<group>"; };
 		6C42A16C2A9F633900A3B883 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
@@ -38,6 +48,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C40B52E2AA6C248001E8471 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				6C40B52C2AA6C030001E8471 /* HexagonParameters.swift */,
+				6C40B52F2AA6C282001E8471 /* BadgeBackground.swift */,
+				6C40B5312AA6C67F001E8471 /* BadgeSymbol.swift */,
+				6C40B5332AA6C70E001E8471 /* RotatedBadgeSymbol.swift */,
+				6C40B5362AA6C78A001E8471 /* Badge.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
 		6C42A15E2A9F633900A3B883 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +79,7 @@
 		6C42A1692A9F633900A3B883 /* SwiftUI_Learning */ = {
 			isa = PBXGroup;
 			children = (
+				6C40B52E2AA6C248001E8471 /* Badges */,
 				6CD59AC12AA07DE900A04C0B /* App */,
 				6CD59ABE2AA07D9D00A04C0B /* Model */,
 				6CD59ABC2AA05A7600A04C0B /* Views */,
@@ -170,9 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C40B52D2AA6C030001E8471 /* HexagonParameters.swift in Sources */,
+				6C40B5372AA6C78A001E8471 /* Badge.swift in Sources */,
 				6CD59AC32AA08EE400A04C0B /* LaunchScreen.swift in Sources */,
+				6C40B5342AA6C70E001E8471 /* RotatedBadgeSymbol.swift in Sources */,
+				6C40B5302AA6C282001E8471 /* BadgeBackground.swift in Sources */,
 				6C42A16D2A9F633900A3B883 /* FirstView.swift in Sources */,
 				6CD59AC52AA0BA6A00A04C0B /* ListView.swift in Sources */,
+				6C40B5322AA6C67F001E8471 /* BadgeSymbol.swift in Sources */,
 				6CD59AC02AA07DCC00A04C0B /* SampleModel.swift in Sources */,
 				6C42A16B2A9F633900A3B883 /* SwiftUI_LearningApp.swift in Sources */,
 			);
